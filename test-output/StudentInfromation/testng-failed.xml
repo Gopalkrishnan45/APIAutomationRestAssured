@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [StudentInfromation]">
+  <test name="StudentInfromation">
+    <classes>
+      <class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
+        <methods>
+          <include name="CreateVisaType"/>
+          <include name="CodeValidationinewNewMode"/>
+          <include name="GetforEditVisaType"/>
+          <include name="EditVisaType"/>
+          <include name="GetforDeleteVisaType"/>
+          <include name="DeleteVisaType"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC001_VisaTypeCRUDTestCase -->
+      <class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
+        <methods>
+          <include name="CreateRecordBudgets"/>
+          <include name="GetEditBudgets"/>
+          <include name="EditRecordBudgets"/>
+          <include name="GetDeleteBudgets"/>
+          <include name="DeleteRecordBudgets"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC002_BudgetsCRUDTestCase -->
+    </classes>
+  </test> <!-- StudentInfromation -->
+  <test name="StudentInfromation(failed)">
+    <classes>
+      <class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
+        <methods>
+          <include name="CodeValidationinewNewMode" invocation-numbers="0"/>
+          <include name="GetforEditVisaType"/>
+          <include name="setUpURL"/>
+          <include name="EditVisaType" invocation-numbers="0"/>
+          <include name="CreateVisaType" invocation-numbers="0"/>
+          <include name="DeleteVisaType" invocation-numbers="0"/>
+          <include name="GetforDeleteVisaType"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC001_VisaTypeCRUDTestCase -->
+      <class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
+        <methods>
+          <include name="GetDeleteBudgets"/>
+          <include name="DeleteRecordBudgets" invocation-numbers="0"/>
+          <include name="CreateRecordBudgets" invocation-numbers="0"/>
+          <include name="Setup"/>
+          <include name="GetEditBudgets"/>
+          <include name="EditRecordBudgets" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC002_BudgetsCRUDTestCase -->
+    </classes>
+  </test> <!-- StudentInfromation(failed) -->
+</suite> <!-- Failed suite [StudentInfromation] -->

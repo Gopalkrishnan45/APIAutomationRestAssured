@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestCases.TC001_VisaTypeTestCase
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.188 sec <<< FAILURE!
+CreateNewVisaType(TestCases.TC001_VisaTypeTestCase)  Time elapsed: 0.052 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid format: "2020-01-05 11:23:01" is malformed at "-01-05 11:23:01"
+	at org.joda.time.format.DateTimeFormatter.parseDateTime(DateTimeFormatter.java:945)
+	at TestCases.TC001_VisaTypeTestCase.CreateNewVisaType(TC001_VisaTypeTestCase.java:46)
+
+CreateNewVisaType(TestCases.TC001_VisaTypeTestCase)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid format: "2020-01-06 11:23:01" is malformed at "-01-06 11:23:01"
+	at org.joda.time.format.DateTimeFormatter.parseDateTime(DateTimeFormatter.java:945)
+	at TestCases.TC001_VisaTypeTestCase.CreateNewVisaType(TC001_VisaTypeTestCase.java:46)
+

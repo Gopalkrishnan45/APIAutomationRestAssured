@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestCases.TC001_VisaTypeTestCase]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="TestCases.TC001_VisaTypeTestCase"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TestCases.TC001_VisaTypeTestCase">
+        <methods>
+          <include name="CreateNewVisaType" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- TestCases.TC001_VisaTypeTestCase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [TestCases.TC001_VisaTypeTestCase] -->

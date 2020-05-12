@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="StudentInfromation">
+	<test name="StudentInfromation">
+		<classes>
+			<class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
+				<methods>
+					<include name="CreateVisaType" />
+					<include name="CodeValidationinewNewMode" />
+					<include name="GetforEditVisaType" />
+					<include name="EditVisaType" />
+					<include name="GetforDeleteVisaType" />
+					<include name="DeleteVisaType" />
+				</methods>
+			</class>
+			<class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
+				<methods>
+					<include name="CreateRecordBudgets" />
+					<include name="GetEditBudgets" />
+					<include name="EditRecordBudgets" />
+					<include name="GetDeleteBudgets" />
+					<include name="DeleteRecordBudgets" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

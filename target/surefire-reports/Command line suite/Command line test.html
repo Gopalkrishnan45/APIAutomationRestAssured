@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 12 12:47:01 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>25 seconds (25557 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.student.TestCases.TC001_VisaTypeCRUDTestCase.CodeValidationinewNewMode()'><b>CodeValidationinewNewMode</b><br>Test class: com.student.TestCases.TC001_VisaTypeCRUDTestCase<br>Parameters: -1, Code3, 2020/01/06 11:23:01, TRUE, FALSE, FALSE, 2020/01/06 11:23:01, 2, Name3</td>
+<td></td>
+<td>0</td>
+<td>com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd</td></tr>
+<tr>
+<td title='com.student.TestCases.TC002_BudgetsCRUDTestCase.CreateRecordBudgets()'><b>CreateRecordBudgets</b><br>Test class: com.student.TestCases.TC002_BudgetsCRUDTestCase<br>Parameters: -1, 2, 516208, Code, 2020/05/11 15:57:47, B, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 2020/05/11 15:57:47, 2, NewBudgets189, 3, 4, 5, 4, 9, 9, 9, 9, offCampusOtherDesc1, offCampusOtherDesc2, offCampusOtherDesc3, offCampusOtherDesc4, offCampusOtherDesc5, offCampusOtherDesc6, offCampusOtherDesc7, offCampusOtherDesc8, 2, 3, 1, 2, 3, 4, 5, 6, 7, 8, onCampusOtherDesc1, onCampusOtherDesc2, onCampusOtherDesc3, onCampusOtherDesc4, onCampusOtherDesc5, onCampusOtherDesc6, onCampusOtherDesc7, onCampusOtherDesc8, 4, 5, 1, 2, 3, 4, 5, 6, 7, 8, otherDesc1, otherDesc2, otherDesc3, otherDesc4, otherDesc5, otherDesc6, otherDesc7, otherDesc8, 4, 5, 6, false</td>
+<td></td>
+<td>6</td>
+<td>com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811</td></tr>
+<tr>
+<td title='com.student.TestCases.TC001_VisaTypeCRUDTestCase.CreateVisaType()'><b>CreateVisaType</b><br>Test class: com.student.TestCases.TC001_VisaTypeCRUDTestCase<br>Parameters: -1, Code3, 2020/01/06 11:23:01, TRUE, FALSE, FALSE, 2020/01/06 11:23:01, 2, Name3</td>
+<td></td>
+<td>12</td>
+<td>com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd</td></tr>
+<tr>
+<td title='com.student.TestCases.TC002_BudgetsCRUDTestCase.DeleteRecordBudgets()'><b>DeleteRecordBudgets</b><br>Test class: com.student.TestCases.TC002_BudgetsCRUDTestCase<br>Parameters: -1, 2, 516208, CodeUpda, 2020/05/11 15:57:47, B, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, 2020/05/11 15:57:47, 2, NewBudgets189Update, 33, 45, 54, 45, 99, 99, 99, 99, offCampusOtherDesc11, offCampusOtherDesc22, offCampusOtherDesc33, offCampusOtherDesc45, offCampusOtherDesc54, offCampusOtherDesc66, offCampusOtherDesc77, offCampusOtherDesc88, 2, 3, 11, 22, 33, 45, 54, 66, 77, 88, onCampusOtherDesc11, onCampusOtherDesc22, onCampusOtherDesc33, onCampusOtherDesc45, onCampusOtherDesc54, onCampusOtherDesc66, onCampusOtherDesc77, onCampusOtherDesc88, 45, 54, 11, 22, 33, 45, 54, 66, 77, 88, otherDesc11, otherDesc22, otherDesc33, otherDesc45, otherDesc54, otherDesc66, otherDesc77, otherDesc88, 45, 54, 66, false</td>
+<td></td>
+<td>0</td>
+<td>com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811</td></tr>
+<tr>
+<td title='com.student.TestCases.TC001_VisaTypeCRUDTestCase.DeleteVisaType()'><b>DeleteVisaType</b><br>Test class: com.student.TestCases.TC001_VisaTypeCRUDTestCase<br>Parameters: CodeUpa, 2020/01/06 11:23:01, TRUE, FALSE, FALSE, 2020/01/06 11:23:01, 2, Name2Updated</td>
+<td></td>
+<td>0</td>
+<td>com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd</td></tr>
+<tr>
+<td title='com.student.TestCases.TC002_BudgetsCRUDTestCase.EditRecordBudgets()'><b>EditRecordBudgets</b><br>Test class: com.student.TestCases.TC002_BudgetsCRUDTestCase<br>Parameters: -1, 2, 516208, CodeUpda, 2020/05/11 15:57:47, B, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, 2020/05/11 15:57:47, 2, NewBudgets189Update, 33, 45, 54, 45, 99, 99, 99, 99, offCampusOtherDesc11, offCampusOtherDesc22, offCampusOtherDesc33, offCampusOtherDesc45, offCampusOtherDesc54, offCampusOtherDesc66, offCampusOtherDesc77, offCampusOtherDesc88, 2, 3, 11, 22, 33, 45, 54, 66, 77, 88, onCampusOtherDesc11, onCampusOtherDesc22, onCampusOtherDesc33, onCampusOtherDesc45, onCampusOtherDesc54, onCampusOtherDesc66, onCampusOtherDesc77, onCampusOtherDesc88, 45, 54, 11, 22, 33, 45, 54, 66, 77, 88, otherDesc11, otherDesc22, otherDesc33, otherDesc45, otherDesc54, otherDesc66, otherDesc77, otherDesc88, 45, 54, 66, false</td>
+<td></td>
+<td>0</td>
+<td>com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811</td></tr>
+<tr>
+<td title='com.student.TestCases.TC001_VisaTypeCRUDTestCase.EditVisaType()'><b>EditVisaType</b><br>Test class: com.student.TestCases.TC001_VisaTypeCRUDTestCase<br>Parameters: CodeUpa, 2020/01/06 11:23:01, TRUE, FALSE, FALSE, 2020/01/06 11:23:01, 2, Name2Updated</td>
+<td></td>
+<td>0</td>
+<td>com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd</td></tr>
+<tr>
+<td title='com.student.TestCases.TC002_BudgetsCRUDTestCase.GetDeleteBudgets()'><b>GetDeleteBudgets</b><br>Test class: com.student.TestCases.TC002_BudgetsCRUDTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811</td></tr>
+<tr>
+<td title='com.student.TestCases.TC002_BudgetsCRUDTestCase.GetEditBudgets()'><b>GetEditBudgets</b><br>Test class: com.student.TestCases.TC002_BudgetsCRUDTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811</td></tr>
+<tr>
+<td title='com.student.TestCases.TC001_VisaTypeCRUDTestCase.GetforDeleteVisaType()'><b>GetforDeleteVisaType</b><br>Test class: com.student.TestCases.TC001_VisaTypeCRUDTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd</td></tr>
+<tr>
+<td title='com.student.TestCases.TC001_VisaTypeCRUDTestCase.GetforEditVisaType()'><b>GetforEditVisaType</b><br>Test class: com.student.TestCases.TC001_VisaTypeCRUDTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd</td></tr>
+</table><p>
+</body>
+</html>
