@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="25557" started-at="2020-05-12T07:17:01Z" finished-at="2020-05-12T07:17:26Z">
+  <suite name="Command line suite" duration-ms="33172" started-at="2020-05-13T12:17:20Z" finished-at="2020-05-13T12:17:53Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="25557" started-at="2020-05-12T07:17:01Z" finished-at="2020-05-12T07:17:26Z">
+    <test name="Command line test" duration-ms="33172" started-at="2020-05-13T12:17:20Z" finished-at="2020-05-13T12:17:53Z">
       <class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
-        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="812" started-at="2020-05-12T12:47:01Z" finished-at="2020-05-12T12:47:02Z">
+        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="589" started-at="2020-05-13T17:47:20Z" finished-at="2020-05-13T17:47:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpURL -->
-        <test-method status="PASS" signature="CreateVisaType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="CreateVisaType" duration-ms="12491" started-at="2020-05-12T12:47:02Z" data-provider="setDataforNewVisaType" finished-at="2020-05-12T12:47:14Z">
+        <test-method status="PASS" signature="CreateVisaType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="CreateVisaType" duration-ms="15905" started-at="2020-05-13T17:47:21Z" data-provider="setDataforNewVisaType" finished-at="2020-05-13T17:47:36Z">
           <params>
             <param index="0">
               <value>
@@ -62,11 +62,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateVisaType -->
-        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="1" started-at="2020-05-12T12:47:20Z" finished-at="2020-05-12T12:47:20Z">
+        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="2" started-at="2020-05-13T17:47:45Z" finished-at="2020-05-13T17:47:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpURL -->
-        <test-method status="PASS" signature="CodeValidationinewNewMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="CodeValidationinewNewMode" duration-ms="646" started-at="2020-05-12T12:47:20Z" data-provider="setDataforNewVisaType" finished-at="2020-05-12T12:47:21Z">
+        <test-method status="PASS" signature="CodeValidationinewNewMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="CodeValidationinewNewMode" duration-ms="723" started-at="2020-05-13T17:47:45Z" data-provider="setDataforNewVisaType" finished-at="2020-05-13T17:47:46Z">
           <params>
             <param index="0">
               <value>
@@ -117,19 +117,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CodeValidationinewNewMode -->
-        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="4" started-at="2020-05-12T12:47:22Z" finished-at="2020-05-12T12:47:22Z">
+        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="4" started-at="2020-05-13T17:47:47Z" finished-at="2020-05-13T17:47:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpURL -->
-        <test-method status="PASS" signature="GetforEditVisaType()[pri:3, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="GetforEditVisaType" duration-ms="658" started-at="2020-05-12T12:47:22Z" finished-at="2020-05-12T12:47:22Z">
+        <test-method status="PASS" signature="GetforEditVisaType()[pri:3, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="GetforEditVisaType" duration-ms="773" started-at="2020-05-13T17:47:47Z" finished-at="2020-05-13T17:47:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetforEditVisaType -->
-        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="0" started-at="2020-05-12T12:47:23Z" finished-at="2020-05-12T12:47:23Z">
+        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="7" started-at="2020-05-13T17:47:49Z" finished-at="2020-05-13T17:47:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpURL -->
-        <test-method status="PASS" signature="EditVisaType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="EditVisaType" duration-ms="701" started-at="2020-05-12T12:47:23Z" data-provider="setDataforEditVisaType" finished-at="2020-05-12T12:47:24Z">
+        <test-method status="PASS" signature="EditVisaType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="EditVisaType" duration-ms="994" started-at="2020-05-13T17:47:49Z" data-provider="setDataforEditVisaType" finished-at="2020-05-13T17:47:50Z">
           <params>
             <param index="0">
               <value>
@@ -175,19 +175,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditVisaType -->
-        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="1" started-at="2020-05-12T12:47:24Z" finished-at="2020-05-12T12:47:24Z">
+        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="4" started-at="2020-05-13T17:47:50Z" finished-at="2020-05-13T17:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpURL -->
-        <test-method status="PASS" signature="GetforDeleteVisaType()[pri:5, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="GetforDeleteVisaType" duration-ms="595" started-at="2020-05-12T12:47:24Z" finished-at="2020-05-12T12:47:25Z">
+        <test-method status="PASS" signature="GetforDeleteVisaType()[pri:5, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="GetforDeleteVisaType" duration-ms="775" started-at="2020-05-13T17:47:50Z" finished-at="2020-05-13T17:47:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetforDeleteVisaType -->
-        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="1" started-at="2020-05-12T12:47:26Z" finished-at="2020-05-12T12:47:26Z">
+        <test-method status="PASS" signature="setUpURL()[pri:0, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="setUpURL" is-config="true" duration-ms="1" started-at="2020-05-13T17:47:52Z" finished-at="2020-05-13T17:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpURL -->
-        <test-method status="PASS" signature="DeleteVisaType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="DeleteVisaType" duration-ms="677" started-at="2020-05-12T12:47:26Z" data-provider="setDataforEditVisaType" finished-at="2020-05-12T12:47:26Z">
+        <test-method status="PASS" signature="DeleteVisaType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.student.TestCases.TC001_VisaTypeCRUDTestCase@7a3d45bd]" name="DeleteVisaType" duration-ms="816" started-at="2020-05-13T17:47:52Z" data-provider="setDataforEditVisaType" finished-at="2020-05-13T17:47:53Z">
           <params>
             <param index="0">
               <value>
@@ -235,11 +235,11 @@
         </test-method> <!-- DeleteVisaType -->
       </class> <!-- com.student.TestCases.TC001_VisaTypeCRUDTestCase -->
       <class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="Setup" is-config="true" duration-ms="2" started-at="2020-05-12T12:47:14Z" finished-at="2020-05-12T12:47:14Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="Setup" is-config="true" duration-ms="1" started-at="2020-05-13T17:47:36Z" finished-at="2020-05-13T17:47:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="CreateRecordBudgets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="CreateRecordBudgets" duration-ms="6282" started-at="2020-05-12T12:47:14Z" data-provider="setNewData" finished-at="2020-05-12T12:47:20Z">
+        <test-method status="PASS" signature="CreateRecordBudgets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="CreateRecordBudgets" duration-ms="8887" started-at="2020-05-13T17:47:36Z" data-provider="setNewData" finished-at="2020-05-13T17:47:45Z">
           <params>
             <param index="0">
               <value>
@@ -700,19 +700,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateRecordBudgets -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="Setup" is-config="true" duration-ms="2" started-at="2020-05-12T12:47:21Z" finished-at="2020-05-12T12:47:21Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="Setup" is-config="true" duration-ms="7" started-at="2020-05-13T17:47:46Z" finished-at="2020-05-13T17:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="GetEditBudgets()[pri:2, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="GetEditBudgets" duration-ms="658" started-at="2020-05-12T12:47:21Z" finished-at="2020-05-12T12:47:22Z">
+        <test-method status="PASS" signature="GetEditBudgets()[pri:2, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="GetEditBudgets" duration-ms="832" started-at="2020-05-13T17:47:46Z" finished-at="2020-05-13T17:47:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetEditBudgets -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="Setup" is-config="true" duration-ms="4" started-at="2020-05-12T12:47:22Z" finished-at="2020-05-12T12:47:22Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="Setup" is-config="true" duration-ms="6" started-at="2020-05-13T17:47:48Z" finished-at="2020-05-13T17:47:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="EditRecordBudgets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="EditRecordBudgets" duration-ms="717" started-at="2020-05-12T12:47:22Z" data-provider="setEditData" finished-at="2020-05-12T12:47:23Z">
+        <test-method status="PASS" signature="EditRecordBudgets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="EditRecordBudgets" duration-ms="866" started-at="2020-05-13T17:47:48Z" data-provider="setEditData" finished-at="2020-05-13T17:47:49Z">
           <params>
             <param index="0">
               <value>
@@ -1173,19 +1173,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditRecordBudgets -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="Setup" is-config="true" duration-ms="2" started-at="2020-05-12T12:47:24Z" finished-at="2020-05-12T12:47:24Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="Setup" is-config="true" duration-ms="7" started-at="2020-05-13T17:47:50Z" finished-at="2020-05-13T17:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="GetDeleteBudgets()[pri:4, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="GetDeleteBudgets" duration-ms="596" started-at="2020-05-12T12:47:24Z" finished-at="2020-05-12T12:47:24Z">
+        <test-method status="PASS" signature="GetDeleteBudgets()[pri:4, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="GetDeleteBudgets" duration-ms="812" started-at="2020-05-13T17:47:50Z" finished-at="2020-05-13T17:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetDeleteBudgets -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="Setup" is-config="true" duration-ms="1" started-at="2020-05-12T12:47:25Z" finished-at="2020-05-12T12:47:25Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="Setup" is-config="true" duration-ms="0" started-at="2020-05-13T17:47:51Z" finished-at="2020-05-13T17:47:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="DeleteRecordBudgets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="DeleteRecordBudgets" duration-ms="679" started-at="2020-05-12T12:47:25Z" data-provider="setEditData" finished-at="2020-05-12T12:47:26Z">
+        <test-method status="PASS" signature="DeleteRecordBudgets(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.student.TestCases.TC002_BudgetsCRUDTestCase@1e7c7811]" name="DeleteRecordBudgets" duration-ms="1128" started-at="2020-05-13T17:47:51Z" data-provider="setEditData" finished-at="2020-05-13T17:47:52Z">
           <params>
             <param index="0">
               <value>

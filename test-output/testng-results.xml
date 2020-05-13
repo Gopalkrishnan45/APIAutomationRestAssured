@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="139" started-at="2020-05-12T18:33:57Z" finished-at="2020-05-12T18:33:57Z">
+  <suite name="Default suite" duration-ms="145" started-at="2020-05-13T12:36:57Z" finished-at="2020-05-13T12:36:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="139" started-at="2020-05-12T18:33:57Z" finished-at="2020-05-12T18:33:57Z">
+    <test name="Default test" duration-ms="145" started-at="2020-05-13T12:36:57Z" finished-at="2020-05-13T12:36:58Z">
       <class name="com.student.TestCases.TC001_SAPStatusCRUDTestCases">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC001_SAPStatusCRUDTestCases@7cd62f43]" name="Setup" duration-ms="130" started-at="2020-05-13T00:03:57Z" finished-at="2020-05-13T00:03:57Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.student.TestCases.TC001_SAPStatusCRUDTestCases@7cd62f43]" name="Setup" duration-ms="134" started-at="2020-05-13T18:06:57Z" finished-at="2020-05-13T18:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
