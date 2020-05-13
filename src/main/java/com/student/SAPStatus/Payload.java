@@ -20,5 +20,4 @@ public class Payload {
 	public String secureState;
 	public Integer entityState;
 
-//gitHub Comments Added.
 }

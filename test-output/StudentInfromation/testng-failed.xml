@@ -24,29 +24,4 @@
       </class> <!-- com.student.TestCases.TC002_BudgetsCRUDTestCase -->
     </classes>
   </test> <!-- StudentInfromation -->
-  <test name="StudentInfromation(failed)">
-    <classes>
-      <class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
-        <methods>
-          <include name="CodeValidationinewNewMode" invocation-numbers="0"/>
-          <include name="GetforEditVisaType"/>
-          <include name="setUpURL"/>
-          <include name="EditVisaType" invocation-numbers="0"/>
-          <include name="CreateVisaType" invocation-numbers="0"/>
-          <include name="DeleteVisaType" invocation-numbers="0"/>
-          <include name="GetforDeleteVisaType"/>
-        </methods>
-      </class> <!-- com.student.TestCases.TC001_VisaTypeCRUDTestCase -->
-      <class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
-        <methods>
-          <include name="GetDeleteBudgets"/>
-          <include name="DeleteRecordBudgets" invocation-numbers="0"/>
-          <include name="CreateRecordBudgets" invocation-numbers="0"/>
-          <include name="Setup"/>
-          <include name="GetEditBudgets"/>
-          <include name="EditRecordBudgets" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.student.TestCases.TC002_BudgetsCRUDTestCase -->
-    </classes>
-  </test> <!-- StudentInfromation(failed) -->
 </suite> <!-- Failed suite [StudentInfromation] -->

@@ -18,7 +18,6 @@ public class TC001_VisaTypeCRUDTestCase extends BaseClass {
 	ObjectMapper objMapper = new ObjectMapper();
 	static Get_Payload_visatype getpayload;
 	static NewEditPayloadvisatype payload;
-	static UtilClass utilclass;
 	public static String id_response_value;
 	public static String name_response_value;
 	public static String code_response_value;
@@ -31,8 +30,6 @@ public class TC001_VisaTypeCRUDTestCase extends BaseClass {
 		String service_URL = "/api/commands/Crm/VisaType";
 
 		request = initialization(service_URL);
-
-		utilclass = new UtilClass();
 
 	}
 
@@ -169,7 +166,7 @@ public class TC001_VisaTypeCRUDTestCase extends BaseClass {
 		visaType.rowVersion = rowVersion_response_value;
 		visaType.originalState = "";
 		visaType.secureState = "";
-		visaType.entityState = utilclass.edit_entityState;
+		visaType.entityState = UtilClass.edit_entityState;
 
 		payload = new NewEditPayloadvisatype(visaType);
 
@@ -239,7 +236,7 @@ public class TC001_VisaTypeCRUDTestCase extends BaseClass {
 		visatype.rowVersion = rowVersion_response_value;
 		visatype.originalState = "";
 		visatype.secureState = "";
-		visatype.entityState = utilclass.delete_entityState;
+		visatype.entityState = UtilClass.delete_entityState;
 
 		payload = new NewEditPayloadvisatype(visatype);
 
