@@ -23,6 +23,16 @@
 					<include name="DeleteRecordBudgets" />
 				</methods>
 			</class>
+			<class
+				name="com.student.TestCases.TC003_SAPStatusCRUDTestCases">
+				<methods>
+					<include name="CreatefaSAPStatus" />
+					<include
+						name="CreateCodeAlreadyExistsValidationfaSAPStatus" />
+					<include name="GetEditModefaSAPStatus" />
+					<include name="EditfaSAPStatus" />
+				</methods>
+			</class>
 		</classes>
 	</test>
 </suite>

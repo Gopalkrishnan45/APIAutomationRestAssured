@@ -22,6 +22,36 @@
           <include name="DeleteRecordBudgets"/>
         </methods>
       </class> <!-- com.student.TestCases.TC002_BudgetsCRUDTestCase -->
+      <class name="com.student.TestCases.TC003_SAPStatusCRUDTestCases">
+        <methods>
+          <include name="CreatefaSAPStatus"/>
+          <include name="CreateCodeAlreadyExistsValidationfaSAPStatus"/>
+          <include name="GetEditModefaSAPStatus"/>
+          <include name="EditfaSAPStatus"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC003_SAPStatusCRUDTestCases -->
     </classes>
   </test> <!-- StudentInfromation -->
+  <test name="StudentInfromation(failed)">
+    <classes>
+      <class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
+        <methods>
+          <include name="setUpURL"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC001_VisaTypeCRUDTestCase -->
+      <class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC002_BudgetsCRUDTestCase -->
+      <class name="com.student.TestCases.TC003_SAPStatusCRUDTestCases">
+        <methods>
+          <include name="EditfaSAPStatus" invocation-numbers="0"/>
+          <include name="CreatefaSAPStatus" invocation-numbers="0"/>
+          <include name="GetEditModefaSAPStatus"/>
+          <include name="CreateCodeAlreadyExistsValidationfaSAPStatus" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC003_SAPStatusCRUDTestCases -->
+    </classes>
+  </test> <!-- StudentInfromation(failed) -->
 </suite> <!-- Failed suite [StudentInfromation] -->

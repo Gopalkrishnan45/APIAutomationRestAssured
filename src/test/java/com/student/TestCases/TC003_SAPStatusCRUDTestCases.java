@@ -22,7 +22,7 @@ import com.student.TestData.UtilClass;
 
 import junit.framework.Assert;
 
-public class TC001_SAPStatusCRUDTestCases extends BaseClass {
+public class TC003_SAPStatusCRUDTestCases extends BaseClass {
 
 	ObjectMapper objMapper = new ObjectMapper();
 	public static String id_responsepayload_data;

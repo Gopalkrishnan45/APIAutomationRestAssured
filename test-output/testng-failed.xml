@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [StudentInfromation]">
+  <test name="StudentInfromation">
     <classes>
-      <class name="com.student.TestCases.TC001_SAPStatusCRUDTestCases"/>
+      <class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
+        <methods>
+          <include name="CreateVisaType"/>
+          <include name="CodeValidationinewNewMode"/>
+          <include name="GetforEditVisaType"/>
+          <include name="EditVisaType"/>
+          <include name="GetforDeleteVisaType"/>
+          <include name="DeleteVisaType"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC001_VisaTypeCRUDTestCase -->
+      <class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
+        <methods>
+          <include name="CreateRecordBudgets"/>
+          <include name="GetEditBudgets"/>
+          <include name="EditRecordBudgets"/>
+          <include name="GetDeleteBudgets"/>
+          <include name="DeleteRecordBudgets"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC002_BudgetsCRUDTestCase -->
+      <class name="com.student.TestCases.TC003_SAPStatusCRUDTestCases">
+        <methods>
+          <include name="CreatefaSAPStatus"/>
+          <include name="CreateCodeAlreadyExistsValidationfaSAPStatus"/>
+          <include name="GetEditModefaSAPStatus"/>
+          <include name="EditfaSAPStatus"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC003_SAPStatusCRUDTestCases -->
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- StudentInfromation -->
+  <test name="StudentInfromation(failed)">
+    <classes>
+      <class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
+        <methods>
+          <include name="setUpURL"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC001_VisaTypeCRUDTestCase -->
+      <class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC002_BudgetsCRUDTestCase -->
+      <class name="com.student.TestCases.TC003_SAPStatusCRUDTestCases">
+        <methods>
+          <include name="EditfaSAPStatus" invocation-numbers="0"/>
+          <include name="CreatefaSAPStatus" invocation-numbers="0"/>
+          <include name="GetEditModefaSAPStatus"/>
+          <include name="CreateCodeAlreadyExistsValidationfaSAPStatus" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.student.TestCases.TC003_SAPStatusCRUDTestCases -->
+    </classes>
+  </test> <!-- StudentInfromation(failed) -->
+</suite> <!-- Failed suite [StudentInfromation] -->
