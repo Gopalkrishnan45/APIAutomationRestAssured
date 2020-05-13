@@ -19,5 +19,9 @@ public class Payload {
 	public String originalState;
 	public String secureState;
 	public Integer entityState;
+
+	public Payload() {
+		//default constructer
+	}
 //gitHub Comments Added.
 }
