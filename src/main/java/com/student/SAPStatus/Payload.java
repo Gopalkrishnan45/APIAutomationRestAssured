@@ -19,5 +19,5 @@ public class Payload {
 	public String originalState;
 	public String secureState;
 	public Integer entityState;
-//gitHub
+//gitHub Comments Added
 }
