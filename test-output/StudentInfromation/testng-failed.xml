@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [StudentInfromation]">
   <test name="StudentInfromation">
     <classes>
-      <class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
+      <class name="com.student.Configuration.TestCases.TC001_VisaTypeCRUDTestCase">
         <methods>
           <include name="CreateVisaType"/>
           <include name="CodeValidationinewNewMode"/>
@@ -12,8 +12,8 @@
           <include name="GetforDeleteVisaType"/>
           <include name="DeleteVisaType"/>
         </methods>
-      </class> <!-- com.student.TestCases.TC001_VisaTypeCRUDTestCase -->
-      <class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
+      </class> <!-- com.student.Configuration.TestCases.TC001_VisaTypeCRUDTestCase -->
+      <class name="com.student.Configuration.TestCases.TC002_BudgetsCRUDTestCase">
         <methods>
           <include name="CreateRecordBudgets"/>
           <include name="GetEditBudgets"/>
@@ -21,37 +21,44 @@
           <include name="GetDeleteBudgets"/>
           <include name="DeleteRecordBudgets"/>
         </methods>
-      </class> <!-- com.student.TestCases.TC002_BudgetsCRUDTestCase -->
-      <class name="com.student.TestCases.TC003_SAPStatusCRUDTestCases">
+      </class> <!-- com.student.Configuration.TestCases.TC002_BudgetsCRUDTestCase -->
+      <class name="com.student.Configuration.TestCases.TC003_SAPStatusCRUDTestCases">
         <methods>
           <include name="CreatefaSAPStatus"/>
           <include name="CreateCodeAlreadyExistsValidationfaSAPStatus"/>
           <include name="GetEditModefaSAPStatus"/>
+          <include name="CreateNewGroups"/>
           <include name="EditfaSAPStatus"/>
+          <include name="GetDeletefaSAPStatus"/>
+          <include name="DeletefaSAPStatus"/>
+          <include name="GetDeleteGroups"/>
+          <include name="DeleteGroupsandAddStudentMember"/>
         </methods>
-      </class> <!-- com.student.TestCases.TC003_SAPStatusCRUDTestCases -->
+      </class> <!-- com.student.Configuration.TestCases.TC003_SAPStatusCRUDTestCases -->
+      <class name="com.student.Configuration.TestCases.TC005_Groups">
+        <methods>
+          <include name="CreateNewGroups"/>
+          <include name="GetEditGroups"/>
+          <include name="EditGroupsandAddStudentMember"/>
+          <include name="GetDeleteGroups"/>
+          <include name="DeleteGroupsandAddStudentMember"/>
+        </methods>
+      </class> <!-- com.student.Configuration.TestCases.TC005_Groups -->
+      <class name="com.student.Configuration.TestCases.TC004_faSAPPoliciesandPloicyDetailsCRUDTestCases">
+        <methods>
+          <include name="CreatefaSAPStatus"/>
+          <include name="CreateNewGroups"/>
+          <include name="CreateSAPPolicies"/>
+          <include name="GetEditSAPPolicies"/>
+          <include name="EditSAPPolicies"/>
+          <include name="GetDeleteSAPPolicies"/>
+          <include name="DeleteAPPolicies"/>
+          <include name="GetDeleteGroups"/>
+          <include name="DeleteGroupsandAddStudentMember"/>
+          <include name="GetDeletefaSAPStatus"/>
+          <include name="DeletefaSAPStatus"/>
+        </methods>
+      </class> <!-- com.student.Configuration.TestCases.TC004_faSAPPoliciesandPloicyDetailsCRUDTestCases -->
     </classes>
   </test> <!-- StudentInfromation -->
-  <test name="StudentInfromation(failed)">
-    <classes>
-      <class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
-        <methods>
-          <include name="setUpURL"/>
-        </methods>
-      </class> <!-- com.student.TestCases.TC001_VisaTypeCRUDTestCase -->
-      <class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
-        <methods>
-          <include name="Setup"/>
-        </methods>
-      </class> <!-- com.student.TestCases.TC002_BudgetsCRUDTestCase -->
-      <class name="com.student.TestCases.TC003_SAPStatusCRUDTestCases">
-        <methods>
-          <include name="EditfaSAPStatus" invocation-numbers="0"/>
-          <include name="CreatefaSAPStatus" invocation-numbers="0"/>
-          <include name="GetEditModefaSAPStatus"/>
-          <include name="CreateCodeAlreadyExistsValidationfaSAPStatus" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.student.TestCases.TC003_SAPStatusCRUDTestCases -->
-    </classes>
-  </test> <!-- StudentInfromation(failed) -->
 </suite> <!-- Failed suite [StudentInfromation] -->
