@@ -2,14 +2,10 @@ package com.student.Configuration.TestCases;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.student.BaseClass.BaseClass;
@@ -484,7 +480,7 @@ public class TC007_CampusesECRUDTestCases extends BaseClass {
 		NewEditCampusPayload newEditCampusPayload = new NewEditCampusPayload();
 		newEditCampusPayload.payload = newEditCampuses;
 
-		List<NewEditCampusEmailSetting> newEditCampusEmailSettingList = new ArrayList();
+		List<NewEditCampusEmailSetting> newEditCampusEmailSettingList = new ArrayList<NewEditCampusEmailSetting>();
 		newEditCampusEmailSettingList.add(newEditCampusEmailSetting);
 
 		newEditCampusPayload.payload.campusEmailSetting = newEditCampusEmailSettingList;
@@ -987,7 +983,7 @@ public class TC007_CampusesECRUDTestCases extends BaseClass {
 		NewEditCampusPayload newEditCampusPayload = new NewEditCampusPayload();
 		newEditCampusPayload.payload = newEditCampuses;
 
-		List<NewEditCampusEmailSetting> newEditCampusEmailSettingList = new ArrayList();
+		List<NewEditCampusEmailSetting> newEditCampusEmailSettingList = new ArrayList<NewEditCampusEmailSetting>();
 		newEditCampusEmailSettingList.add(newEditCampusEmailSetting);
 
 		newEditCampusPayload.payload.campusEmailSetting = newEditCampusEmailSettingList;

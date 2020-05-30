@@ -1,7 +1,5 @@
 package com.student.Campus;
 
-import java.util.List;
-
 public class NewEditCampusDetails {
 
 	public Integer id;
@@ -179,7 +177,7 @@ public class NewEditCampusDetails {
 	public Object voidClearedRefundStipendCheckSetting;
 	public String originalState;
 	public String secureState;
-	//public List<Object> extendedProperties = null;
+	// public List<Object> extendedProperties = null;
 	public Integer entityState;
 
 }

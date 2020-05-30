@@ -5,7 +5,7 @@
     <classes>
       <class name="com.student.Configuration.TestCases.TC011_AdPrograms">
         <methods>
-          <include name="CodeAlreadyExistsValidationAdPrograms" invocation-numbers="0 1"/>
+          <include name="GetandDeleteAdPrograms" invocation-numbers="0 1"/>
           <include name="SetUp"/>
         </methods>
       </class> <!-- com.student.Configuration.TestCases.TC011_AdPrograms -->

@@ -3,18 +3,12 @@ package com.student.Configuration.TestCases;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.student.BaseClass.BaseClass;
-import com.student.Groups.GetGroups;
-import com.student.Groups.GetPayload;
-import com.student.Groups.NewEditGroups;
-import com.student.Groups.NewEditGroupsPayload;
 import com.student.SAPStatus.FaSapStatusStudentGroupList;
 import com.student.SAPStatus.Get_Payload_faSAPStatus;
 import com.student.SAPStatus.Get_faSAPStatus;
@@ -22,13 +16,6 @@ import com.student.SAPStatus.Payload;
 import com.student.SAPStatus.PayloadSap;
 import com.student.SAPStatus.StudentGroupMembers;
 import com.student.TestData.UtilClass;
-
-import io.restassured.RestAssured;
-import io.restassured.config.SSLConfig;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
-import io.restassured.specification.RequestSpecification;
 import junit.framework.Assert;
 
 public class TC004_faSAPStatusCRUDTestCases extends BaseClass {
