@@ -8,6 +8,6 @@ public class FaSapStatusStudentGroupList {
 	public Boolean isActive;
 	public Integer entityState;
 	public Boolean isRemovedFromStudentGroupWhenSapMet;
-	public StudentGroup studentGroup;
+	public StudentGroupMembers studentGroup;
 
 }

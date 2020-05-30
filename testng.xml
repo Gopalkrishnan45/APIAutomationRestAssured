@@ -4,7 +4,17 @@
 <suite name="StudentInfromation">
 	<test name="StudentInfromation">
 		<classes>
-			<class name="com.student.TestCases.TC001_VisaTypeCRUDTestCase">
+			<class
+				name="com.student.Configuration.TestCases.TC007_CampusesECRUDTestCases">
+				<mathods>
+					<include name="CreateCampus" />
+					<include name="GetCampus" />
+					<include name="EditCampus" />
+					<include name="DeleteCampus" />
+				</mathods>
+			</class>
+			<class
+				name="com.student.Configuration.TestCases.TC001_VisaTypeCRUDTestCase">
 				<methods>
 					<include name="CreateVisaType" />
 					<include name="CodeValidationinewNewMode" />
@@ -14,7 +24,8 @@
 					<include name="DeleteVisaType" />
 				</methods>
 			</class>
-			<class name="com.student.TestCases.TC002_BudgetsCRUDTestCase">
+			<class
+				name="com.student.Configuration.TestCases.TC002_BudgetsCRUDTestCase">
 				<methods>
 					<include name="CreateRecordBudgets" />
 					<include name="GetEditBudgets" />
@@ -24,14 +35,50 @@
 				</methods>
 			</class>
 			<class
-				name="com.student.TestCases.TC003_SAPStatusCRUDTestCases">
+				name="com.student.Configuration.TestCases.TC003_SAPStatusCRUDTestCases">
 				<methods>
 					<include name="CreatefaSAPStatus" />
 					<include
 						name="CreateCodeAlreadyExistsValidationfaSAPStatus" />
 					<include name="GetEditModefaSAPStatus" />
 					<include name="EditfaSAPStatus" />
+					<include name="GetDeletefaSAPStatus" />
+					<include name="DeletefaSAPStatus" />
 				</methods>
+			</class>
+			<class name="com.student.Configuration.TestCases.TC005_Groups">
+				<methods>
+					<include name="CreateNewGroups" />
+					<include name="GetEditGroups" />
+					<include name="EditGroupsandAddStudentMember" />
+					<include name="GetDeleteGroups" />
+					<include name="DeleteGroupsandAddStudentMember" />
+				</methods>
+			</class>
+			<class
+				name="com.student.Configuration.TestCases.TC004_faSAPPoliciesandPloicyDetailsCRUDTestCases">
+				<methods>
+					<include name="CreatefaSAPStatus" />
+					<include name="CreateNewGroups" />
+					<include name="CreateSAPPolicies" />
+					<include name="GetEditSAPPolicies" />
+					<include name="EditSAPPolicies" />
+					<include name="GetDeleteSAPPolicies" />
+					<include name="DeleteAPPolicies" />
+					<include name="GetDeleteGroups" />
+					<include name="DeleteGroupsandAddStudentMember" />
+					<include name="GetDeletefaSAPStatus" />
+					<include name="DeletefaSAPStatus" />
+				</methods>
+			</class>
+			<class>
+				<mathods>
+					<include name="CreateAcademicYear" />
+					<include name="getAcademicYear" />
+					<include name="EditAcademicYear" />
+					<include name="getDeleteAcademicYear" />
+					<include name="DeleteAcademicYear" />
+				</mathods>
 			</class>
 		</classes>
 	</test>

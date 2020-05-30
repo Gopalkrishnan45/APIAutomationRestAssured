@@ -7,7 +7,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class UtilClass {
 
-	public static String EXCELSHEET_PATCH = "C:\\GopalBackUp\\WorkSpace\\APIRestAssuredToolsQA\\src\\main\\java\\TestDataFromExcel\\FreeCRMtestData.xlsx";
+	public static int new_entityState = 0;
 
 	public static int edit_entityState = 2;
 
@@ -17,11 +17,11 @@ public class UtilClass {
 
 	static XSSFSheet sheet;
 
-	public Object[][] setData(String sheetname) {
+	public static Object[][] setData(String sheetname, String file_path) {
 
 		try {
 
-			FileInputStream file = new FileInputStream(EXCELSHEET_PATCH);
+			FileInputStream file = new FileInputStream(file_path);
 
 			book = new XSSFWorkbook(file);
 
@@ -30,7 +30,7 @@ public class UtilClass {
 			System.out.println(e.getMessage());
 		}
 
-		sheet = book.getSheetAt(0);
+		sheet = book.getSheetAt((int) Math.round(Double.parseDouble(sheetname)));
 
 		Object[][] data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
 
