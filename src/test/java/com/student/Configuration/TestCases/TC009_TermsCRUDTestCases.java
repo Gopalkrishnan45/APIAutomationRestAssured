@@ -1,6 +1,5 @@
 package com.student.Configuration.TestCases;
 
-import static org.testng.Assert.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
 import org.testng.Assert;
@@ -43,7 +42,7 @@ public class TC009_TermsCRUDTestCases extends BaseClass {
 	}
 
 	@Test(dataProvider = "setNewTermsExcelData", priority = 1)
-	public void CreateTerm(String code, String name, String startDate, String endDate, String faAcademicCalendar,
+	public void CreateTerms(String code, String name, String startDate, String endDate, String faAcademicCalendar,
 			String isStandardTerm, String standardTermType, String termUsage, String summerHeaderOrTrailer,
 			String isChildTermDatesRuleEnforced, String revenueUnits, String isOnlineUsageAllowed, String isActive,
 			String isAttendanceRecorded, String isExcludedCrmIntegration, String isGlobalExtractTerm,
@@ -146,7 +145,7 @@ public class TC009_TermsCRUDTestCases extends BaseClass {
 	}
 
 	@Test(dataProvider = "setEditTermsExcelData", priority = 2)
-	public void EditTerm(String code, String name, String startDate, String endDate, String faAcademicCalendar,
+	public void EditTerms(String code, String name, String startDate, String endDate, String faAcademicCalendar,
 			String isStandardTerm, String standardTermType, String summerHeaderOrTrailer,
 			String isChildTermDatesRuleEnforced, String revenueUnits, String isOnlineUsageAllowed, String isActive,
 			String isAttendanceRecorded, String isExcludedCrmIntegration, String isGlobalExtractTerm,

@@ -6,12 +6,12 @@
 		<classes>
 			<class
 				name="com.student.Configuration.TestCases.TC007_CampusesECRUDTestCases">
-				<mathods>
+				<methods>
 					<include name="CreateCampus" />
 					<include name="GetCampus" />
 					<include name="EditCampus" />
 					<include name="DeleteCampus" />
-				</mathods>
+				</methods>
 			</class>
 			<class
 				name="com.student.Configuration.TestCases.TC001_VisaTypeCRUDTestCase">
@@ -71,14 +71,31 @@
 					<include name="DeletefaSAPStatus" />
 				</methods>
 			</class>
-			<class>
-				<mathods>
+			<class
+				name="com.student.Configuration.TestCases.TC006_FAAcademicYearCRUDTestCases">
+				<methods>
 					<include name="CreateAcademicYear" />
 					<include name="getAcademicYear" />
 					<include name="EditAcademicYear" />
 					<include name="getDeleteAcademicYear" />
 					<include name="DeleteAcademicYear" />
-				</mathods>
+				</methods>
+			</class>
+			<class
+				name="com.student.Configuration.TestCases.TC009_TermsCRUDTestCases">
+				<methods>
+					<include name="CreateTerms" />
+					<include name="EditTerms" />
+					<include name="DeleteTerms" />
+				</methods>
+			</class>
+			<class
+				name="com.student.Configuration.TestCases.TC011_AdPrograms">
+				<methods>
+					<include name="CreateAdPrograms" />
+					<include name="CodeAlreadyExistsValidationAdPrograms" />
+					<include name="GetandDeleteAdPrograms" />
+				</methods>
 			</class>
 		</classes>
 	</test>

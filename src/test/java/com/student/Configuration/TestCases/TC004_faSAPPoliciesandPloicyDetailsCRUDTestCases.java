@@ -2,11 +2,9 @@ package com.student.Configuration.TestCases;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.student.BaseClass.BaseClass;
@@ -20,14 +18,10 @@ import com.student.SAPStatus.Get_faSAPStatus;
 import com.student.SAPStatus.Payload;
 import com.student.SAPStatus.PayloadSap;
 import com.student.TestData.UtilClass;
-
 import SAPPoliciesAndPolicyDetails.GetSAPPolicies;
 import SAPPoliciesAndPolicyDetails.GetSAPPoliciesPayload;
 import SAPPoliciesAndPolicyDetails.NewEditSAPPolicies;
 import SAPPoliciesAndPolicyDetails.NewEditSAPPoliciesPayload;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
 import junit.framework.Assert;
 

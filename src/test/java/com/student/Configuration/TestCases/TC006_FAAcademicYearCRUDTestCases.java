@@ -1,6 +1,5 @@
 package com.student.Configuration.TestCases;
 
-import static org.testng.Assert.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
 import org.testng.annotations.BeforeMethod;
