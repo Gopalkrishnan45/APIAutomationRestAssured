@@ -1,7 +1,0 @@
-com\student\Configuration\TestCases\TC001_VisaTypeCRUDTestCase.class
-com\student\Configuration\TestCases\TC003_SAPStatusCRUDTestCases.class
-com\student\Configuration\TestCases\TC004_faSAPPoliciesandPloicyDetailsCRUDTestCases.class
-com\student\Configuration\TestCases\TC004_faSAPStatusCRUDTestCases.class
-com\student\Configuration\TestCases\DBConnection.class
-com\student\Configuration\TestCases\TC002_BudgetsCRUDTestCase.class
-com\student\Configuration\TestCases\TC005_Groups.class

@@ -1,64 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [StudentInfromation]">
-  <test name="StudentInfromation">
+  <test thread-count="5" name="StudentInfromation(failed)">
     <classes>
-      <class name="com.student.Configuration.TestCases.TC001_VisaTypeCRUDTestCase">
+      <class name="Configuration.AcademicRecords.TestCases.TC012_AdAdProgramVersionsCRUDTestCase">
         <methods>
-          <include name="CreateVisaType"/>
-          <include name="CodeValidationinewNewMode"/>
-          <include name="GetforEditVisaType"/>
-          <include name="EditVisaType"/>
-          <include name="GetforDeleteVisaType"/>
-          <include name="DeleteVisaType"/>
+          <include name="RunSQLQuary"/>
+          <include name="DeleteGetProgramVersion" invocation-numbers="1"/>
+          <include name="EditandGetProgramVersion" invocation-numbers="0"/>
+          <include name="SetUp"/>
         </methods>
-      </class> <!-- com.student.Configuration.TestCases.TC001_VisaTypeCRUDTestCase -->
-      <class name="com.student.Configuration.TestCases.TC002_BudgetsCRUDTestCase">
+      </class> <!-- Configuration.AcademicRecords.TestCases.TC012_AdAdProgramVersionsCRUDTestCase -->
+      <class name="Configuration.ContactManager.TestCases.TC001_VisaTypeCRUDTestCase">
         <methods>
-          <include name="CreateRecordBudgets"/>
-          <include name="GetEditBudgets"/>
-          <include name="EditRecordBudgets"/>
-          <include name="GetDeleteBudgets"/>
-          <include name="DeleteRecordBudgets"/>
+          <include name="setUpURL"/>
+          <include name="EditVisaType" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.student.Configuration.TestCases.TC002_BudgetsCRUDTestCase -->
-      <class name="com.student.Configuration.TestCases.TC003_SAPStatusCRUDTestCases">
-        <methods>
-          <include name="CreatefaSAPStatus"/>
-          <include name="CreateCodeAlreadyExistsValidationfaSAPStatus"/>
-          <include name="GetEditModefaSAPStatus"/>
-          <include name="CreateNewGroups"/>
-          <include name="EditfaSAPStatus"/>
-          <include name="GetDeletefaSAPStatus"/>
-          <include name="DeletefaSAPStatus"/>
-          <include name="GetDeleteGroups"/>
-          <include name="DeleteGroupsandAddStudentMember"/>
-        </methods>
-      </class> <!-- com.student.Configuration.TestCases.TC003_SAPStatusCRUDTestCases -->
-      <class name="com.student.Configuration.TestCases.TC005_Groups">
-        <methods>
-          <include name="CreateNewGroups"/>
-          <include name="GetEditGroups"/>
-          <include name="EditGroupsandAddStudentMember"/>
-          <include name="GetDeleteGroups"/>
-          <include name="DeleteGroupsandAddStudentMember"/>
-        </methods>
-      </class> <!-- com.student.Configuration.TestCases.TC005_Groups -->
-      <class name="com.student.Configuration.TestCases.TC004_faSAPPoliciesandPloicyDetailsCRUDTestCases">
-        <methods>
-          <include name="CreatefaSAPStatus"/>
-          <include name="CreateNewGroups"/>
-          <include name="CreateSAPPolicies"/>
-          <include name="GetEditSAPPolicies"/>
-          <include name="EditSAPPolicies"/>
-          <include name="GetDeleteSAPPolicies"/>
-          <include name="DeleteAPPolicies"/>
-          <include name="GetDeleteGroups"/>
-          <include name="DeleteGroupsandAddStudentMember"/>
-          <include name="GetDeletefaSAPStatus"/>
-          <include name="DeletefaSAPStatus"/>
-        </methods>
-      </class> <!-- com.student.Configuration.TestCases.TC004_faSAPPoliciesandPloicyDetailsCRUDTestCases -->
+      </class> <!-- Configuration.ContactManager.TestCases.TC001_VisaTypeCRUDTestCase -->
     </classes>
-  </test> <!-- StudentInfromation -->
+  </test> <!-- StudentInfromation(failed) -->
 </suite> <!-- Failed suite [StudentInfromation] -->
