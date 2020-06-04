@@ -1,6 +1,11 @@
-C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\com\student\Configuration\TestCases\TC004_faSAPPoliciesandPloicyDetailsCRUDTestCases.java
-C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\com\student\Configuration\TestCases\TC003_SAPStatusCRUDTestCases.java
-C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\com\student\Configuration\TestCases\TC005_Groups.java
-C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\com\student\Configuration\TestCases\TC001_VisaTypeCRUDTestCase.java
-C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\com\student\Configuration\TestCases\TC004_faSAPStatusCRUDTestCases.java
-C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\com\student\Configuration\TestCases\TC002_BudgetsCRUDTestCase.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Configuration\ContactManager\TestCases\TC001_VisaTypeCRUDTestCase.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Configuration\FinancialAid\TestCases\TC004_faSAPStatusCRUDTestCases.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Configuration\FinancialAid\TestCases\TC005_Groups.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Configuration\AcademicRecords\TestCases\TC006_FAAcademicYearCRUDTestCases.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Configuration\AcademicRecords\TestCases\TC012_AdAdProgramVersionsCRUDTestCase.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Configuration\AcademicRecords\TestCases\TC009_TermsCRUDTestCases.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Configuration\FinancialAid\TestCases\TC004_faSAPPoliciesandPloicyDetailsCRUDTestCases.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Configuration\AcademicRecords\TestCases\TC011_AdPrograms.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Configuration\FinancialAid\TestCases\TC003_SAPStatusCRUDTestCases.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Setting\FinancialAid\TestCases\TC007_CampusesECRUDTestCases.java
+C:\GopalBackUp\WorkSpace\APIRestAssuredToolsQA\src\test\java\Configuration\FinancialAid\TestCases\TC002_BudgetsCRUDTestCase.java

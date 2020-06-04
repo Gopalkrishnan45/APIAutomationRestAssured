@@ -5,7 +5,7 @@
 	<test name="StudentInfromation">
 		<classes>
 			<class
-				name="com.student.Configuration.TestCases.TC007_CampusesECRUDTestCases">
+				name="Setting.FinancialAid.TestCases.TC007_CampusesECRUDTestCases">
 				<methods>
 					<include name="CreateCampus" />
 					<include name="GetCampus" />
@@ -14,7 +14,7 @@
 				</methods>
 			</class>
 			<class
-				name="com.student.Configuration.TestCases.TC001_VisaTypeCRUDTestCase">
+				name="Configuration.ContactManager.TestCases.TC001_VisaTypeCRUDTestCase">
 				<methods>
 					<include name="CreateVisaType" />
 					<include name="CodeValidationinewNewMode" />
@@ -25,7 +25,7 @@
 				</methods>
 			</class>
 			<class
-				name="com.student.Configuration.TestCases.TC002_BudgetsCRUDTestCase">
+				name="Configuration.FinancialAid.TestCases.TC002_BudgetsCRUDTestCase">
 				<methods>
 					<include name="CreateRecordBudgets" />
 					<include name="GetEditBudgets" />
@@ -35,7 +35,7 @@
 				</methods>
 			</class>
 			<class
-				name="com.student.Configuration.TestCases.TC003_SAPStatusCRUDTestCases">
+				name="Configuration.FinancialAid.TestCases.TC003_SAPStatusCRUDTestCases">
 				<methods>
 					<include name="CreatefaSAPStatus" />
 					<include
@@ -46,7 +46,7 @@
 					<include name="DeletefaSAPStatus" />
 				</methods>
 			</class>
-			<class name="com.student.Configuration.TestCases.TC005_Groups">
+			<class name="Configuration.FinancialAid.TestCases.TC005_Groups">
 				<methods>
 					<include name="CreateNewGroups" />
 					<include name="GetEditGroups" />
@@ -56,7 +56,7 @@
 				</methods>
 			</class>
 			<class
-				name="com.student.Configuration.TestCases.TC004_faSAPPoliciesandPloicyDetailsCRUDTestCases">
+				name="Configuration.FinancialAid.TestCases.TC004_faSAPPoliciesandPloicyDetailsCRUDTestCases">
 				<methods>
 					<include name="CreatefaSAPStatus" />
 					<include name="CreateNewGroups" />
@@ -72,7 +72,7 @@
 				</methods>
 			</class>
 			<class
-				name="com.student.Configuration.TestCases.TC006_FAAcademicYearCRUDTestCases">
+				name="Configuration.AcademicRecords.TestCases.TC006_FAAcademicYearCRUDTestCases">
 				<methods>
 					<include name="CreateAcademicYear" />
 					<include name="getAcademicYear" />
@@ -82,7 +82,7 @@
 				</methods>
 			</class>
 			<class
-				name="com.student.Configuration.TestCases.TC009_TermsCRUDTestCases">
+				name="Configuration.AcademicRecords.TestCases.TC009_TermsCRUDTestCases">
 				<methods>
 					<include name="CreateTerms" />
 					<include name="EditTerms" />
@@ -90,11 +90,29 @@
 				</methods>
 			</class>
 			<class
-				name="com.student.Configuration.TestCases.TC011_AdPrograms">
+				name="Configuration.AcademicRecords.TestCases.TC011_AdPrograms">
 				<methods>
 					<include name="CreateAdPrograms" />
 					<include name="CodeAlreadyExistsValidationAdPrograms" />
 					<include name="GetandDeleteAdPrograms" />
+				</methods>
+			</class>
+			<class
+				name="Configuration.AcademicRecords.TestCases.TC012_AdAdProgramVersionsCRUDTestCase">
+				<methods>
+					<include name="CreateProgramVersion" />
+					<include name="EditandGetProgramVersion" />
+					<include name="DeleteGetProgramVersion" />
+				</methods>
+			</class>
+			<class
+				name="Setting.FinancialAid.TestCases.TC001_FAProgramVersionsCRUDTestCases">
+				<methods>
+					<include name="CreateProgramVersion" />
+					<include
+						name="CreateFAProgramVersionsWithTermaAsscoationValidatione" />
+					<include name="CreateFAProgramVersions" />
+					<include name="DeleteFAProgramVesrions" />
 				</methods>
 			</class>
 		</classes>
