@@ -108,7 +108,7 @@
 			<class
 				name="Setting.FinancialAid.TestCases.TC001_FAProgramVersionsCRUDTestCases">
 				<methods>
-					<include name="CreateProgramVersion" />
+					<include name="CreateADProgramVersion" />
 					<include
 						name="CreateFAProgramVersionsWithTermaAsscoationValidatione" />
 					<include name="CreateFAProgramVersions" />

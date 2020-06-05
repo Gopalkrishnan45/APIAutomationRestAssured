@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Configuration.AcademicRecords.TestCases.TC012_AdAdProgramVersionsCRUDTestCase">
+      <class name="Configuration.AcademicRecords.TestCases.TC009_TermsCRUDTestCases">
         <methods>
-          <include name="RunSQLQuary"/>
-          <include name="EditandGetProgramVersion" invocation-numbers="0 1"/>
           <include name="SetUp"/>
+          <include name="EditTerms"/>
         </methods>
-      </class> <!-- Configuration.AcademicRecords.TestCases.TC012_AdAdProgramVersionsCRUDTestCase -->
+      </class> <!-- Configuration.AcademicRecords.TestCases.TC009_TermsCRUDTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
